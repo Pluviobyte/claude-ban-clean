@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude 本机安全清理"
+  short_description: "审计并备份清理 Claude 本机缓存与旧账号字段，保护历史和工具配置"
+  default_prompt: "使用 $claude-ban-clean 先只读审计 Claude 本机数据，列出可清理范围并保护对话历史、Skills、Hooks 和 MCP。"
